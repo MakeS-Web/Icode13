@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+.container{
+    background-color: blue;
+    border-radius: 30px;
+    border: rgb(224, 222, 242) 10px solid;
+    width: 800px;
+    height: 300px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000px;
+    min-width: 1000px;
+    position: relative;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.scnd{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    text-align: center;
+}
+input{
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+}
+.Emale{
+    display: flex;
+    justify-content: center;
+    min-width: 800px;
+}
+button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: black;
+}
+.btn{
+    position: absolute;
+    right: 690px;
+    top: 507px;
+}
